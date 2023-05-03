@@ -1,0 +1,37 @@
+<script type="text/javascript">
+
+    //no return with perameter
+
+    var a = parseInt(prompt("Enter a number: "));
+    console.log(a);
+
+    var b = parseInt(prompt("Enter a number: "));
+    console.log(b);
+
+    var c = parseInt(prompt("Enter a number: "));
+    console.log(c);
+
+    var d = parseInt(prompt("Enter a number: "));
+    console.log(d);
+
+    max(a,b,c,d);
+
+    function max(a,b,c,d){
+        
+        if(a > b && a > c && a > d){
+            console.log("A is max");
+        }
+        else if(b > a && b > c && b > d){
+            console.log("B is max");
+        }
+        else if(c > a && c > b && c > d){
+            console.log("C is max");
+        }
+        else if(d > a && d > b && d > c){
+            console.log("D is max");
+        }
+
+    }
+
+
+</script>
