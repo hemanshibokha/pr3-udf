@@ -1,0 +1,30 @@
+<script type="text/javascript">
+
+    // return with perameter
+
+    var age = parseInt(prompt("Enter a number: "));
+    console.log(age);
+
+    vote(age);
+
+    var vote = vote(age);
+
+    if(vote == 1){
+        console.log("you can vote");
+    }
+    else{
+        console.log("you can't vote");
+    }
+
+    function vote(age){
+
+        if (18 <= age) {
+            return 1;
+        }
+        else {
+            return 2;
+        }
+
+    }
+
+</script>

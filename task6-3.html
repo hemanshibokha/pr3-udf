@@ -1,0 +1,33 @@
+<script type="text/javascript">
+
+    //return with perameter
+
+    var a = parseInt(prompt("Enter a number of a: "));
+    console.log("A = " + a);
+
+    var b = parseInt(prompt("Enter a number of b: "));
+    console.log("B = " + b);
+
+    swapa(a,b);
+    swapb(a,b);
+
+    var ans1 = swapa(a,b);
+    var ans2 = swapb(a,b);
+
+    console.log("a = " + ans1);
+    console.log("b = " + ans2);
+
+    function swapa(a,b){
+        a = b;
+        return a;
+    }
+
+    function swapb(a,b){
+        b = a;
+        return b;
+    }
+
+
+
+
+</script>

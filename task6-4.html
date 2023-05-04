@@ -1,0 +1,29 @@
+<script type="text/javascript">
+
+    //return with no perameter
+    
+    var ans1 = swapa();
+    var ans2 = swapb();
+
+    console.log("A = " + ans1);
+    console.log("B = " + ans2);
+
+    var temp = ans1;
+    ans1 = ans2;
+    ans2 = temp;
+
+    console.log("A = " + ans1);
+    console.log("b = " + ans2);
+ 
+    function swapa() {
+        var a = parseInt(prompt("Enter a number of a: "));
+        return a;
+    }
+
+    function swapb() {
+        var b = parseInt(prompt("Enter a number of b: "));
+        return b;
+    }
+
+
+</script>
